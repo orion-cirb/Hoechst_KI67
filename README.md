@@ -18,7 +18,7 @@ With each image can be provided a *.roi* or *.zip* file containing one or multip
 
 ### Plugin description
 
-* Segment Hoechst and KI67 channels using background subtraction + median filter + automatic threshold + median filter 
+* Segment Hoechst and KI67 channels using background subtraction (radius = 100 pixels) + median filter (radius = 10 pixels) + automatic threshold (selected in the dialog box) + median filter (radius = 3 pixels)
 * Count nuclei in each channel by calculating the total volume of packed nuclei and dividing it by the estimated volume of a single nucleus
 * If an ROI is provided, perform the analysis only within that region
 
